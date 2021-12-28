@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color:#ebebeb;
+    --primary-color: #3d3d3d;
+    --Bckground-color: #151313;
+    --secondary-color: black;
+}
+
+body {
+    color: var(--Bckground-color);
+    font-family: manifold,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;;
+}
+
+header {
+    padding: 50px 65px;
+    background-color: var(--Bckground-color);
+    background-image: url("../images/hero\ image.jpg");
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+}
+
+header h1 {
+    font-weight: lighter;
+    font-size: 40px;
+    color: var(--text-color);
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+header nav {
+    margin: 7px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 25px;
+    font-weight: lighter;
+    font-size: 1.25vw;
+}
+
+header nav ul li a:hover {
+    color: var(--text-color);
+    font-size: 1.27vw;
+}
+
+footer {
+    background-color: var(--Bckground-color);
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-between;
+    flex: wrap;
+}
+
+footer h2 {
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+section {
+    padding: 60px;
+}
+
+/* Hero Style Starts */
+.hero {
+    background-image: url("../images/hero\ image.jpg");
+    background-attachment: fixed;
+    padding-bottom: 150px;
+}
+
+.hero img {
+    width: 100px;
+    height: 150;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero h2 {
+    color: var(--text-color);
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
